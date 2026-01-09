@@ -11,7 +11,7 @@
     { "type": "wiki_ref", "ref": "help_topics", "text": "View our library" },
     {
       "type": "label",
-      "text": "This version is currently under development by ewanpeebles.\nThis message will be removed."
+      "text": "This version is currently under development by\newanpeebles. This message will be removed."
     },
     {
       "type": "label",
