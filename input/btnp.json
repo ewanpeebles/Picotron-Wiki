@@ -1,0 +1,13 @@
+{
+  "elements": [
+    {
+      "type": "label",
+      "text": "btnp(b) returns whether the\nbutton \"b\" has been pressed since the last frame."
+    }
+  ],
+  "metadata": {
+    "authors": ["ewanpeebles"],
+    "version": "0.1",
+    "page_title": "btnp()"
+  }
+}

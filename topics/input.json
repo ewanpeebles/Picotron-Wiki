@@ -1,1 +1,13 @@
-{"elements":[{"type":"label","text":"Here are our current documents:"},{"text":"mouse()","ref":"input/mouse","type":"wiki_ref"}],"metadata":{"authors":["kravohi"],"page_title":"Input","version":"0.4"}}
+{
+  "elements": [
+    { "type": "label", "text": "Here are our current documents:" },
+    { "text": "mouse()", "ref": "input/mouse", "type": "wiki_ref" },
+    { "text": "btn()", "ref": "input/btn", "type": "wiki_ref" },
+    { "text": "btnp()", "ref": "input/btnp", "type": "wiki_ref" }
+  ],
+  "metadata": {
+    "authors": ["kravohi"],
+    "page_title": "Input",
+    "version": "0.4"
+  }
+}
