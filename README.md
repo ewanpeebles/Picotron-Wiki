@@ -5,9 +5,7 @@
 
 ![Picotron Wiki Label Image](assets/picotron_wiki_label.png)
 
-This repository contains data for the Picotron wiki cart. You can integrate it into [Picotron](https://www.lexaloffle.com/picotron.php) by downloading the Wiki Viewer cartridge [here](https://www.lexaloffle.com/bbs/?tid=140925).
-
-To download it as a desktop app, run the following commands in a new terminal:
+This repository contains data for the [Picotron](https://www.lexaloffle.com/picotron.php) wiki cart. You can integrate it directly into Picotron by downloading the Wiki Viewer cartridge [here](https://www.lexaloffle.com/bbs/?tid=140925), or running the following commands in the terminal below.
 
 ```
 load #picotron_wiki
