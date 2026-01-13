@@ -1,1 +1,33 @@
-{"elements":[{"text":"Here are our current documents:","type":"label"},{"text":"circ()","type":"wiki_ref","ref":"graphics/circ"},{"text":"rect()","type":"wiki_ref","ref":"graphics/rect"},{"text":"line()","type":"wiki_ref","ref":"graphics/line"},{"text":"spr()","type":"wiki_ref","ref":"graphics/spr"},{"text":"sspr()","type":"wiki_ref","ref":"graphics/sspr"}],"metadata":{"version":"0.2","page_title":"Graphics","authors":["scrapSavage","thacuber2a03"]}}
+{
+  "elements": [
+    { "text": "Here are our current documents:", "type": "label" },
+    {
+      "text": "circ() and circfill()",
+      "type": "wiki_ref",
+      "ref": "graphics/circ"
+    },
+    {
+      "text": "rect() and rectfill()",
+      "type": "wiki_ref",
+      "ref": "graphics/rect"
+    },
+    {
+      "text": "rrect() and rrectfill()",
+      "type": "wiki_ref",
+      "ref": "graphics/rrect"
+    },
+    {
+      "text": "oval() and ovalfill()",
+      "type": "wiki_ref",
+      "ref": "graphics/oval"
+    },
+    { "text": "line()", "type": "wiki_ref", "ref": "graphics/line" },
+    { "text": "spr()", "type": "wiki_ref", "ref": "graphics/spr" },
+    { "text": "sspr()", "type": "wiki_ref", "ref": "graphics/sspr" }
+  ],
+  "metadata": {
+    "version": "0.3",
+    "page_title": "Graphics",
+    "authors": ["scrapSavage", "thacuber2a03", "ewanpeebles"]
+  }
+}
