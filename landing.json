@@ -15,9 +15,9 @@
     { "type": "wiki_ref", "ref": "help_topics", "text": "View our library" },
     {
       "type": "label",
-      "text": "If you're new to Picotron and want to learn your way around, take our tutorial below."
+      "text": "If you're new to Picotron and want to learn your\nway around, take our tutorial below."
     },
-    { "type": "wiki_ref", "ref": "help_topics", "text": "Tutorial" },
+    { "type": "wiki_ref", "ref": "tutorial", "text": "Tutorial" },
     {
       "type": "label",
       "text": "\nDid we miss something?\nFeel free to let us know about any errors or\nmissing content, or take matters into your own\nhands and fork our Github repository to make\nyour changes, then submit a pull request."
