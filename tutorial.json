@@ -1,0 +1,14 @@
+{
+  "elements": [
+    {
+      "type": "label",
+      "text": "Hello! This is a stub. Please go away."
+    },
+    { "type": "wiki_ref", "ref": "landing", "text": "View our library" }
+  ],
+  "metadata": {
+    "version": "0.1",
+    "authors": ["ewanpeebles"],
+    "page_title": "Picotron Wiki"
+  }
+}

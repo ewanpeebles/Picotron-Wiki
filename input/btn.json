@@ -5,11 +5,15 @@
       "text": "btn([b], [pl]) returns whether the button \"b\" is\ncurrently being held down.\n[b] is an integer from 0 to 15 indicating the\nvalue of the button being pressed.\n\n[b] values:\n1: Keyboard Left Arrow / Left Stick Left\n2: Keyboard Right Arrow / Left Stick Right\n3: Keyboard Up Arrow / Left Stick Up\n4: Keyboard Down Arrow / Left Stick Down\n5: Keyboard Z / Controller A\n6: Keyboard X / Controller X\n7: Keyboard ENTER / Controller Pause\n8: Keyboard A / Right Stick Left\n9: Keyboard D / Right Stick Right\n10: Keyboard W / Right Stick Up\n11: Keyboard S / Right Stick Down\n12: Keyboard F / Controller B\n13: Keyboard G / Controller Y\n14: Keyboard Q / Left Bumper\n15: Keyboard E / Right Bumper\n\nAs you may have noticed, 7 does not have an\nassigned button or key.\nThe code below prints the button being currently\nheld down."
     },
     {
+      "type": "warning",
+      "text": "[pl]'s behavior has yet to be added here. @ewanpeebles get to work on this"
+    },
+    {
       "type": "demo",
       "text": "function _init()\ncbtn = \"none\"\nend\nfunction _update()\nif btn(0) then cbtn = \"Left Arrow / Left Stick Left\"\nelseif btn(1) then cbtn = \"Right Arrow / Left Stick Right\"\nelseif btn(2) then cbtn = \"Up Arrow / Left Stick Up\"\nelseif btn(3) then cbtn = \"Down Arrow / Left Stick Down\"\nelseif btn(4) then cbtn = \"Keyboard Z / Controller A\"\nelseif btn(5) then cbtn = \"Keyboard X / Controller X\"\nelseif btn(6) then cbtn = \"Keyboard ENTER / Controller Pause\"\nelseif btn(7) then cbtn = \"You found it\"\nelseif btn(8) then cbtn = \"Keyboard A / Right Stick Left\"\nelseif btn(9) then cbtn = \"Keyboard D / Right Stick Right\"\nelseif btn(10) then cbtn = \"Keyboard W / Right Stick Up\"\nelseif btn(11) then cbtn = \"Keyboard S / Right Stick Down\"\nelseif btn(12) then cbtn = \"Keyboard F / Controller B\"\nelseif btn(13) then cbtn = \"Keyboard G / Controller Y\"\nelseif btn(14) then cbtn = \"Keyboard Q / Left Bumper\"\nelseif btn(15) then cbtn = \"Keyboard E / Right Bumper\"\nelse cbtn = \"none\" end\nend\nfunction _draw()\ncls()\nprint(cbtn)\nend"
     },
     {
-      "type": "label",
+      "type": "note",
       "text": "btn() doesn't take previous frames into account.\nFor a function that checks if the button is down\nand was not during the last frame, see btnp()."
     },
     {

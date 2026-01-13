@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "page_title": "oval() and ovalfill()",
+    "version": "0.1",
+    "authors": ["ewanpeebles"]
+  },
+  "elements": [
+    {
+      "type": "label",
+      "text": "The oval function draws an empty oval."
+    },
+    {
+      "type": "snippet",
+      "text": "--draws a red oval.\ncirc(16,16,32,48,8)"
+    },
+    {
+      "type": "label",
+      "text": "x0\n  X coordinate of the top left corner of the\n  oval.\ny0\n  Y coordinate of the top left corner of the\n  oval.\nx1\n  X coordinate of the bottom right corner of\n  the oval.\ny1\n  Y coordinate of the bottom right corner of\n  the oval.\ncol\n  The color of the circle.\n\nThe ovalfill() function behaves exactly the\nsame as oval() and takes the same arguments, but\nthe oval it draws is filled in."
+    }
+  ]
+}
