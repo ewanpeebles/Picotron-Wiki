@@ -1,0 +1,13 @@
+{
+  "elements": [
+    {
+      "type": "label",
+      "text": "yeah"
+    }
+  ],
+  "metadata": {
+    "authors": ["ewanpeebles"],
+    "version": "0.1",
+    "page_title": "Map Workspace"
+  }
+}

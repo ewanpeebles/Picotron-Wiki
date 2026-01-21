@@ -7,7 +7,11 @@
   "elements": [
     {
       "type": "label",
-      "text": "The rect function draws an empty rectangle with\nrounded corners."
+      "text": "rrect(x, y, width, height, [radius], [col]) draws an empty\nrectangle with rounded corners."
+    },
+    {
+      "type": "note",
+      "text": "Parameters in brackets can be omitted."
     },
     {
       "type": "snippet",
@@ -15,7 +19,7 @@
     },
     {
       "type": "label",
-      "text": "x\n  Top left x coordinate of rectangle.\ny\n  Top left y coordinate of rectangle.\nwidth\n  Width of the rectangle in pixels.\nheight\n  Height of the rectangle in pixels. Extends\n  downwards.\nradius\n  The distance extending from each corner that\n  should be rounded\ncol\n  The color of the rectangle.\n\nrrectfill() behaves exactly the same as rrect()\nand takes the same arguments, except rrectfill()\ndraws a filled-in rectangle."
+      "text": "x\n  Top left x coordinate of rectangle.\ny\n  Top left y coordinate of rectangle.\nwidth\n  Width of the rectangle in pixels.\nheight\n  Height of the rectangle in pixels. Extends\n  downwards.\nradius\n  The distance extending from each corner that\n  should be rounded. Default is 0.\ncol\n  The color of the rectangle. If omitted, uses\n  the last color something was drawn in.\n\nrrectfill() behaves exactly the same as rrect()\nand takes the same arguments, except rrectfill()\ndraws a filled-in rectangle."
     }
   ]
 }

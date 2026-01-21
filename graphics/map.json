@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "page_title": "Map API",
+    "version": "0.1",
+    "authors": ["ewanpeebles"]
+  },
+  "elements": [
+    {
+      "type": "note",
+      "text": "This article is the API reference for the\nmap object and function. For info on the\nmap workspace, visit the map workspace\narticle."
+    },
+    {
+      "type": "wiki_ref",
+      "ref": "workspaces/map"
+    }
+  ]
+}

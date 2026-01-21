@@ -1,24 +1,21 @@
 {
-	"metadata" : {
-		"page_title" : "line()",
-		"version" : "0.2",
-		"authors" : [
-			"kravohi",
-			"Hessery"
-		]
-	},
-	"elements" : [
-		{
-			"type" : "label",
-			"text" : "The line() function draws a colored line from\none point to another."
-		},
-		{
-			"type" : "snippet",
-			"text" : "line(0,0,20,10,8)"
-		},
-		{
-			"type" : "label",
-			"text" : "This draws a line from the position (0, 0) to\nthe position (20, 10). The line is colored red.\n\nx1\n  x position of point one.\ny1\n  y position of point one.\nx2\n  x position of point two.\ny2\n  y poisition of point two.\nc\n  Colour of the line."
-		}
-	]
+  "metadata": {
+    "page_title": "line()",
+    "version": "0.3",
+    "authors": ["kravohi", "Hessery", "ewanpeebles"]
+  },
+  "elements": [
+    {
+      "type": "label",
+      "text": "line(x0, y0, x1, y1, [col]) draws a colored line from\none point to another."
+    },
+    {
+      "type": "snippet",
+      "text": "line(0,0,20,10,8)"
+    },
+    {
+      "type": "label",
+      "text": "This draws a line from the position (0, 0) to\nthe position (20, 10). The line is colored red.\n\nx0\n  x position of point one.\n0\n  y position of point one.\nx1\n  x position of point two.\ny1\n  y poisition of point two.\n[col]\n  Colour of the line. If omitted, uses the\n  last color something was drawn in."
+    }
+  ]
 }

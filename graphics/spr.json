@@ -1,26 +1,21 @@
 {
-	"metadata" : {
-		"page_title" : "spr()",
-		"version" : "0.2",
-		"authors" : [
-			"scrapSavage",
-			"auexicek",
-			"kravohi",
-			"Hessery"
-		]
-	},
-	"elements" : [
-		{
-			"type" : "label",
-			"text" : "The spr() function draws a sprite (either from\nuserdata, or from an index in the gfx editor)."
-		},
-		{
-			"type" : "snippet",
-			"text" : "spr(1,30,12,true,false)"
-		},
-		{
-			"type" : "label",
-			"text" : "This draws sprite indexed at 1 on x=30 and y=12,\nand flipped horizontally.\n\nn\n  The index for a sprite (or a variable with 2d\n  userdata)\nx\n  The x of where the sprite's upper left corner\n  will be.\ny\n  The y of where the sprite's upper left corner\n  will be.\nflph (bool)\n  Tf true, the sprite will be flipped\n  horizontally.\nflpv (bool)\n  If true, the sprite will be flipped\n  vertically."
-		}
-	]
+  "metadata": {
+    "page_title": "spr()",
+    "version": "0.2",
+    "authors": ["scrapSavage", "auexicek", "kravohi", "Hessery"]
+  },
+  "elements": [
+    {
+      "type": "label",
+      "text": "spr(n, [x], [y], [flph], [flpv]) draws a sprite\nIt can be drawn either from userdata,\nor from an index in the gfx editor."
+    },
+    {
+      "type": "snippet",
+      "text": "spr(1,30,12,true,false)"
+    },
+    {
+      "type": "label",
+      "text": "This draws sprite indexed at 1 on x=30 and y=12,\nand flipped horizontally.\n\nn\n  The index for a sprite (or a variable with 2d\n  userdata)\nx\n  The x of where the sprite's upper left corner\n  will be. Default is 0.\ny\n  The y of where the sprite's upper left corner\n  will be. Default is 0.\nflph (bool)\n  Tf true, the sprite will be flipped\n  horizontally.\nflpv (bool)\n  If true, the sprite will be flipped\n  vertically."
+    }
+  ]
 }

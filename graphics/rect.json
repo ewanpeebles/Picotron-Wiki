@@ -7,7 +7,7 @@
   "elements": [
     {
       "type": "label",
-      "text": "The rect function draws an empty rectangle."
+      "text": "rect(x0, y0, x1, y1, [col]) draws an empty rectangle."
     },
     {
       "type": "snippet",
@@ -15,7 +15,7 @@
     },
     {
       "type": "label",
-      "text": "x0\n  Top left x coordinate of rectangle.\ny0\n  Top left y coordinate of rectangle.\nx1\n  Bottom right x coordinate of rectangle.\ny1\n  Bottom right y coordinate of rectangle\ncol\n  The color of the rectangle.\n\nrectfill() behaves exactly the same as rect()\nand takes the same arguments, except rectfill()\ndraws a filled-in rectangle."
+      "text": "x0\n  Top left x coordinate of rectangle.\ny0\n  Top left y coordinate of rectangle.\nx1\n  Bottom right x coordinate of rectangle.\ny1\n  Bottom right y coordinate of rectangle\ncol\n  The color of the rectangle. If omitted, uses the\n  last color something was drawn in.\n\nrectfill() behaves exactly the same as rect()\nand takes the same arguments, except rectfill()\ndraws a filled-in rectangle."
     }
   ]
 }

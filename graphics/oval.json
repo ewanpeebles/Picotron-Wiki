@@ -7,7 +7,11 @@
   "elements": [
     {
       "type": "label",
-      "text": "The oval function draws an empty oval."
+      "text": "oval(x0, y0, x1, y1, [col]) function draws an empty oval."
+    },
+    {
+      "type": "note",
+      "text": "Parameters in brackets can be omitted."
     },
     {
       "type": "snippet",
@@ -15,7 +19,7 @@
     },
     {
       "type": "label",
-      "text": "x0\n  X coordinate of the top left corner of the\n  oval.\ny0\n  Y coordinate of the top left corner of the\n  oval.\nx1\n  X coordinate of the bottom right corner of\n  the oval.\ny1\n  Y coordinate of the bottom right corner of\n  the oval.\ncol\n  The color of the circle.\n\nThe ovalfill() function behaves exactly the\nsame as oval() and takes the same arguments, but\nthe oval it draws is filled in."
+      "text": "x0\n  X coordinate of the top left corner of the\n  oval.\ny0\n  Y coordinate of the top left corner of the\n  oval.\nx1\n  X coordinate of the bottom right corner of\n  the oval.\ny1\n  Y coordinate of the bottom right corner of\n  the oval.\ncol\n  The color of the circle. If omitted, uses the\n  last color something was drawn in.\n\nThe ovalfill() function behaves exactly the\nsame as oval() and takes the same arguments, but\nthe oval it draws is filled in."
     }
   ]
 }

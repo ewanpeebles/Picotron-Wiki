@@ -15,7 +15,7 @@
     },
     {
       "type": "label",
-      "text": "x\n  X coordinate of circle.\ny\n  Y coordinate of circle.\nr\n  Radius of circle.\ncol\n  The color of the circle.\n\nThe circfill() function behaves exactly the same\nas circ() and takes the same arguments, but the\ncircle it draws is filled in."
+      "text": "x\n  X coordinate of circle.\ny\n  Y coordinate of circle.\nr\n  Radius of circle.\ncol\n  The color of the circle. If omitted, uses the\n  last color something was drawn in.\n\nThe circfill() function behaves exactly the same\nas circ() and takes the same arguments, but the\ncircle it draws is filled in."
     }
   ]
 }
