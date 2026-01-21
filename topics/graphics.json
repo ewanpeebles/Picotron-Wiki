@@ -23,7 +23,8 @@
     },
     { "text": "line()", "type": "wiki_ref", "ref": "graphics/line" },
     { "text": "spr()", "type": "wiki_ref", "ref": "graphics/spr" },
-    { "text": "sspr()", "type": "wiki_ref", "ref": "graphics/sspr" }
+    { "text": "sspr()", "type": "wiki_ref", "ref": "graphics/sspr" },
+    { "text": "Map API", "type": "wiki_ref", "ref": "graphics/map" }
   ],
   "metadata": {
     "version": "0.3",
