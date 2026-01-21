@@ -11,7 +11,12 @@
     },
     {
       "type": "wiki_ref",
-      "ref": "workspaces/map"
+      "ref": "workspaces/map",
+      "text": "Map Workspace"
+    },
+    {
+      "type": "label",
+      "text": ""
     }
   ]
 }

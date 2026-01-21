@@ -7,7 +7,7 @@
   "elements": [
     {
       "type": "label",
-      "text": "line(x0, y0, x1, y1, [col]) draws a colored line from\none point to another."
+      "text": "line(x0, y0, x1, y1, [col]) draws a colored line\nfrom one point to another."
     },
     {
       "type": "snippet",

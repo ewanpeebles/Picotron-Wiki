@@ -7,7 +7,7 @@
   "elements": [
     {
       "type": "label",
-      "text": "oval(x0, y0, x1, y1, [col]) function draws an empty oval."
+      "text": "oval(x0, y0, x1, y1, [col]) function draws an\nempty oval."
     },
     {
       "type": "note",

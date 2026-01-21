@@ -7,7 +7,7 @@
   "elements": [
     {
       "type": "label",
-      "text": "rrect(x, y, width, height, [radius], [col]) draws an empty\nrectangle with rounded corners."
+      "text": "rrect(x, y, width, height, [radius], [col]) draws\nan empty rectangle with rounded corners."
     },
     {
       "type": "note",
